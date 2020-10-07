@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images" >
+        <item>@drawable/circle_1</item>
+        <item>@drawable/circle_2</item>
+        <item>@drawable/circle_3</item>
+        <item>@drawable/cone_1</item>
+        <item>@drawable/cone_2</item>
+        <item>@drawable/cone_3</item>
+        <item>@drawable/cube_1</item>
+        <item>@drawable/cube_2</item>
+        <item>@drawable/cube_3</item>
+        <item>@drawable/cuboid_1</item>
+        <item>@drawable/cuboid_2</item>
+        <item>@drawable/cuboid_3</item>
+        <item>@drawable/cylinder_1</item>
+        <item>@drawable/cylinder_2</item>
+        <item>@drawable/cylinder_3</item>
+        <item>@drawable/hexagon_1</item>
+        <item>@drawable/hexagon_2</item>
+        <item>@drawable/hexagon_3</item>
+        <item>@drawable/octagon_1</item>
+        <item>@drawable/octagon_2</item>
+        <item>@drawable/octagon_3</item>
+        <item>@drawable/pentagon_1</item>
+        <item>@drawable/pentagon_2</item>
+        <item>@drawable/pentagon_3</item>
+        <item>@drawable/pyramid_cube_1</item>
+        <item>@drawable/pyramid_cube_2</item>
+        <item>@drawable/pyramid_cube_3</item>
+        <item>@drawable/rectangle_1</item>
+        <item>@drawable/rectangle_2</item>
+        <item>@drawable/rectangle_3</item>
+        <item>@drawable/rhombus_1</item>
+        <item>@drawable/rhombus_2</item>
+        <item>@drawable/rhombus_3</item>
+        <item>@drawable/sphere_1</item>
+        <item>@drawable/sphere_2</item>
+        <item>@drawable/sphere_3</item>
+        <item>@drawable/square_1</item>
+        <item>@drawable/square_2</item>
+        <item>@drawable/square_3</item>
+        <item>@drawable/triangle_1</item>
+        <item>@drawable/triangle_2</item>
+        <item>@drawable/triangle_3</item>
+        <item>@drawable/triangular_pyramid_1</item>
+        <item>@drawable/triangular_pyramid_2</item>
+        <item>@drawable/triangular_pyramid_3</item>
+    </array>
+</resources>
