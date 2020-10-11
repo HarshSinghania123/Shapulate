@@ -86,19 +86,19 @@ public class MainActivity extends AppCompatActivity {
         {
             questionsMap.put(0, "Identify the Circle");
             questionsMap.put(1, "Which one looks like a Cone");
-            questionsMap.put(2, "Where is the Cube");
+            questionsMap.put(2, "Find the cube shaped object");
             questionsMap.put(3, "Find the Cuboid");
             questionsMap.put(4, "Pick the Cylinder");
-            questionsMap.put(5, "There is a Hexagon below select it");
+            questionsMap.put(5, "Select the Hexagon shape");
             questionsMap.put(6, "Select the Octagon");
             questionsMap.put(7, "Can you see a Pentagon");
-            questionsMap.put(8, "There is a Pyramid Cube in the pictures");
-            questionsMap.put(9, "Where is Rectangle");
-            questionsMap.put(10, "Click on the Rhombus");
+            questionsMap.put(8, "Select the object which has a Pyramid shape");
+            questionsMap.put(9, "Can you find the Rectangle shaped object");
+            questionsMap.put(10, "Find the Rhombus");
             questionsMap.put(11, "Select the Sphere");
             questionsMap.put(12, "Find the Square");
             questionsMap.put(13, "Which one looks like a Triangle");
-            questionsMap.put(14, "Identify the Triangular Pyramid");
+            questionsMap.put(14, "Identify the object which has Prism shape");
 
             ansShapeArr[0] = "Circle  ";
             ansShapeArr[1] = "Cone  ";
@@ -108,13 +108,13 @@ public class MainActivity extends AppCompatActivity {
             ansShapeArr[5] = "Hexagon  ";
             ansShapeArr[6] = "Octagon  ";
             ansShapeArr[7] = "Pentagon   ";
-            ansShapeArr[8] = "Pyramid Cube  ";
+            ansShapeArr[8] = "Pyramid  ";
             ansShapeArr[9] = "Rectangle   ";
             ansShapeArr[10] = "Rhombus  ";
             ansShapeArr[11] = "Sphere  ";
             ansShapeArr[12] = "Square  ";
             ansShapeArr[13] = "Triangle  ";
-            ansShapeArr[14] = "Triangular Pyramid  ";
+            ansShapeArr[14] = "Prism  ";
         }
 
         Collections.shuffle(randomizeQnNoList);
@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
         for(int number : ansBtnList)
             answerString.add(ansShapeArr[number]);
 
-        ansImgClick1.setImageResource(images.getResourceId(Math.abs((ansBtnList.get(0)+1)*3 - rand.nextInt(3)-1) , R.drawable.ic_launcher_foreground));
+        ansImgClick1.setImageResource(images.getResourceId(Math.abs((ansBtnList.get(0)+1)*3 - rand.nextInt(3) -1) , R.drawable.ic_launcher_foreground));
         ansImgClick2.setImageResource(images.getResourceId(Math.abs((ansBtnList.get(1)+1)*3 - rand.nextInt(3) -1), R.drawable.ic_launcher_foreground));
         ansImgClick3.setImageResource(images.getResourceId(Math.abs((ansBtnList.get(2)+1)*3 - rand.nextInt(3) -1), R.drawable.ic_launcher_foreground));
         ansImgClick4.setImageResource(images.getResourceId(Math.abs((ansBtnList.get(3)+1)*3 - rand.nextInt(3) -1), R.drawable.ic_launcher_foreground));
@@ -293,7 +293,7 @@ public class MainActivity extends AppCompatActivity {
                 if(Integer.parseInt(scoreTxt.getText().toString()) == 15){
                     finishPopCreation(Integer.parseInt(scoreTxt.getText().toString()), "You Cleared the Round");
                 }else{
-                    if(questionNo == limit-1)
+                    if(questionNo == limit)
                         finishPopCreation(Integer.parseInt(scoreTxt.getText().toString()), "You Completed all questions");
                     else
                         quesAnsGeneration(randomizeQnNoList.get(questionNo++));
@@ -302,11 +302,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         shapePopup.setContentView(R.layout.activity_crct_ans_popup);
-        TextView displayTxt = shapePopup.findViewById(R.id.result_view_txt);
-        displayTxt.setTextColor(Color.WHITE);
-        displayTxt.setTextSize(25);
-        displayTxt.setText("Yaayy!! It is "+ selectedShape.toUpperCase());
-        displayTxt.setTypeface(null, Typeface.BOLD);
+        //TextView displayTxt = shapePopup.findViewById(R.id.result_view_txt);
+       // displayTxt.setTextColor(Color.WHITE);
+        //displayTxt.setTextSize(25);
+        //displayTxt.setText("Yaayy!! It is "+ selectedShape.toUpperCase());
+        //displayTxt.setTypeface(null, Typeface.BOLD);
         shapePopup.show();
         crctSnd.start();
         Handler handler = new Handler();

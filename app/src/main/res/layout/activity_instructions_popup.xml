@@ -30,9 +30,11 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="casual"
-                    android:text="Quiz with the Shapes"
+                    android:text="Shapes 'n' Objects"
                     android:textAlignment="center"
+                    android:textAllCaps="false"
                     android:textColor="#FFFFFF"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -65,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="2. Select the game mode."
+                android:text="2. A question appears on the screen."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -76,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="3. A question appears on the screen based on the game mode."
+                android:text="3. A set of 4 objects appears."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -87,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="4. A set of 4 shapes appears, related to the question."
+                android:text="4. Identify the shape of the objects and match with the given question."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -98,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="5. Select the correct shape matching to the given question."
+                android:text="5. If the correct answer is selected a point will be added."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -109,7 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="6. If the correct answer is selected a point will be added."
+                android:text="6. On selecting wrong answer one point will be reduced."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -120,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
-                android:text="7. On selecting wrong answer one point will be reduced."
+                android:text="7. The game will be continued till you score 15 points or the no of questions gets over."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -131,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="8. The game will be continued till you score 15 points or the no of questions is over."
+                android:text="8. Compete and complete the game with your friends."
                 android:textColor="#FFFFFF" />
 
             <Space
@@ -142,7 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
-                android:text="9. Compete and complete both Easy and Hard modes of the game with your friends."
+                android:text="9. Start the game squeez your brain and complete."
                 android:textColor="#FFFFFF" />
 
             <Space

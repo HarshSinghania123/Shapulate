@@ -25,9 +25,9 @@
         <item>@drawable/pentagon_1</item>
         <item>@drawable/pentagon_2</item>
         <item>@drawable/pentagon_3</item>
-        <item>@drawable/pyramid_cube_1</item>
-        <item>@drawable/pyramid_cube_2</item>
-        <item>@drawable/pyramid_cube_3</item>
+        <item>@drawable/pyramid_1</item>
+        <item>@drawable/pyramid_2</item>
+        <item>@drawable/pyramid_3</item>
         <item>@drawable/rectangle_1</item>
         <item>@drawable/rectangle_2</item>
         <item>@drawable/rectangle_3</item>
@@ -43,8 +43,8 @@
         <item>@drawable/triangle_1</item>
         <item>@drawable/triangle_2</item>
         <item>@drawable/triangle_3</item>
-        <item>@drawable/triangular_pyramid_1</item>
-        <item>@drawable/triangular_pyramid_2</item>
-        <item>@drawable/triangular_pyramid_3</item>
+        <item>@drawable/prism_1</item>
+        <item>@drawable/prism_2</item>
+        <item>@drawable/prism_3</item>
     </array>
 </resources>
