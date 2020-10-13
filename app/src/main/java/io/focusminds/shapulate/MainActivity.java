@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             questionsMap.put(11, "Select the Sphere");
             questionsMap.put(12, "Find the Square");
             questionsMap.put(13, "Which one looks like a Triangle");
-            questionsMap.put(14, "Identify the object which has Prism shape");
+            questionsMap.put(14, "Identify the object which has Triangular Prism shape");
 
             ansShapeArr[0] = "Circle  ";
             ansShapeArr[1] = "Cone  ";

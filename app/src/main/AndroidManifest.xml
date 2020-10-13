@@ -8,23 +8,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:largeHeap="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartScreen">
+        <activity android:name=".StartScreen"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".Mathlove" />
-        <activity android:name=".LoadingScreen" >
+        <activity android:name=".Mathlove"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".LoadingScreen"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FocusMindsAbout" />
-        <activity android:name=".MainActivity">
-
-        </activity>
-
+        <activity android:name=".FocusMindsAbout"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
